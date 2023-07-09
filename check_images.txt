@@ -1,0 +1,22 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: 
+No, the three model architectures did not classify the breed of the dog in Dog_01.jpg as the same breed. VGG correctly identified the breed in both Dog_01.jpg and Dog_02.jpg, while ResNet classified one of the photos correctly. However, AlexNet misclassified the breed in both images. Although AlexNet and ResNet did not classify the exact breed, it is worth noting that they were able to identify the dog as a poodle breed, albeit not the specific branch. Despite the differences, all three models demonstrated some level of success in recognizing the poodle breed.
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: 
+No, only VGG and AlexNet were able to classify the breed of the dog in Dog_01.jpg as the same breed as Dog_02.jpg. However, AlexNet misclassified the breed, while ResNet also missed the correct classification. Therefore, VGG was the only model architecture that successfully classified both images with the correct breed.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: 
+None of the model architectures correctly classified Animal_Name_01.jpg as a giraffe. However, all three models successfully recognized Object_Name_01.jpg as a computer keyboard.
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer:
+Based on the results of the four test photos, I would select VGG as the best model architecture among the three. VGG demonstrated consistent performance by correctly classifying both dog photos and the keyboard image.
